@@ -1,0 +1,12 @@
+ext.pathMapper = [:]
+ext.pathMapper.put('C:/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/plugins/android/lib/android-gradle-tooling.jar', '/mnt/c/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/plugins/android/lib/android-gradle-tooling.jar')
+ext.pathMapper.put('C:/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/lib/3rd-party-rt.jar', '/mnt/c/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/lib/3rd-party-rt.jar')
+ext.pathMapper.put('C:/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/plugins/gradle/lib/gradle-tooling-extension-api.jar', '/mnt/c/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/plugins/gradle/lib/gradle-tooling-extension-api.jar')
+ext.pathMapper.put('C:/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/plugins/android/lib/android-kotlin-extensions-tooling.jar', '/mnt/c/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/plugins/android/lib/android-kotlin-extensions-tooling.jar')
+ext.pathMapper.put('C:/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/plugins/gradle/lib/gradle-api-impldep-7.5.1.jar', '/mnt/c/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/plugins/gradle/lib/gradle-api-impldep-7.5.1.jar')
+ext.pathMapper.put('C:/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/lib/util_rt.jar', '/mnt/c/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/lib/util_rt.jar')
+ext.pathMapper.put('C:/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/plugins/gradle/lib/gradle-tooling-extension-impl.jar', '/mnt/c/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/plugins/gradle/lib/gradle-tooling-extension-impl.jar')
+ext.pathMapper.put('C:/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/lib/external-system-rt.jar', '/mnt/c/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/lib/external-system-rt.jar')
+ext.pathMapper.put('C:/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/plugins/Kotlin/lib/kotlin-gradle-tooling.jar', '/mnt/c/Users/evang/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/plugins/Kotlin/lib/kotlin-gradle-tooling.jar')
+ext.pathMapper.put("<<target java executable path>>", '/home/evan/.jdks/openjdk-18.0.1.1/bin/java')
+ext.mapPath = { path -> pathMapper.get(path) ?: path }
